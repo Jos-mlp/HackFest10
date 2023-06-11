@@ -28,7 +28,74 @@
             </p>
         </div>
     </header>
-    <main class="main">
+    <main>
+        <section class="c-recoleccion contenedores" id="recoleccion">
+            <h1 class="subtitulo">Ubicación y Días de Recolección de basura</h1>
+            <p class="sub-subtitulo">Selecciona tu ubicación en Quetzaltenango:</p>
+            <div class="container-recoleccion">
+                <select class="select-zona" id="locationSelect">
+                    <option value="zona1">Zona 1</option>
+                    <option value="zona2">Zona 2</option>
+                    <option value="zona3">Zona 3</option>
+                    <option value="zona4">Zona 4</option>
+                    <option value="zona5">Zona 5</option>
+                    <option value="zona6">Zona 6</option>
+                    <option value="zona7">Zona 7</option>
+                    <option value="zona8">Zona 8</option>
+                    <option value="zona9">Zona 9</option>
+                    <option value="zona10">Zona 10</option>
+                    <option value="zona11">Zona 11</option>
+                    <option value="zona12">Zona 12</option>
+                    <!-- Agrega más opciones de zona si es necesario -->
+                </select>
+                <button class="button-recoleccion button"  onclick="getLocation()">Obtener Días de Recolección</button>
+            </div>
+            <div class="container-output">
+                <div class="output" id="outputBasura"></div>
+                <div class="output" id="outputReciclaje"></div>
+            </div>
+
+           
+        </section>
+
+        <section class="c-beneficios contenedores" id="Beneficios">
+            <h2 class="subtitulo">Beneficios de reciclar</h2>
+            <div class="contenedor-beneficios">
+                <img src="img/reciclar.svg" alt="Beneficios">
+                <div class="lista-beneficios">
+                    <div class="beneficios">
+                        <h3 class="n-beneficios"><span class="numero">1</span>Cuidamos el medio ambiente</h3>
+                        <p>
+                            Al reciclar, ayudamos a proteger nuestro entorno y conservar los recursos naturales. Al reutilizar materiales como el papel, el vidrio y el plástico, evitamos la tala de árboles, la extracción de materias primas y la producción de más desechos.
+                        </p>
+                    </div>
+                    <div class="beneficios">
+                        <h3 class="n-beneficios"><span class="numero">2</span>Reducimos la contaminación</h3>
+                        <p>
+                            Al reciclar, evitamos que los objetos desechados terminen en vertederos o se quemen, lo que reduce la cantidad de contaminantes y gases nocivos liberados al aire, como los gases de efecto invernadero. Esto contribuye a tener un aire más limpio y saludable para todos.
+                        </p>
+                    </div>
+                    <div class="beneficios">
+                        <h3 class="n-beneficios"><span class="numero">3</span>Ahorramos energía</h3>
+                        <p>
+                            Al reciclar ciertos materiales, como el vidrio, el papel y el aluminio, se requiere menos energía para producir nuevos productos. Por ejemplo, reciclar una botella de vidrio ahorra suficiente energía para iluminar una bombilla durante cuatro horas. Al ahorrar energía, también reducimos la cantidad de combustibles fósiles quemados, lo que beneficia al medio ambiente.
+                        </p>
+                    </div>
+                    <div class="beneficios">
+                        <h3 class="n-beneficios"><span class="numero">4</span>Creamos empleos</h3>
+                        <p>
+                            El reciclaje no solo es beneficioso para el planeta, sino también para nuestra comunidad. Cuando reciclamos, se generan empleos en la industria del reciclaje, desde recolectores hasta trabajadores en plantas de reciclaje. Estos empleos ayudan a fortalecer la economía local y brindan oportunidades de trabajo para las personas.
+                        </p>
+                    </div>
+                    <div class="beneficios">
+                        <h3 class="n-beneficios"><span class="numero">5</span>Fomentamos el sentido de responsabilidad</h3>
+                        <p>
+                            Al aprender a reciclar desde una edad temprana, desarrollamos un sentido de responsabilidad hacia nuestro entorno. Nos damos cuenta de que nuestras acciones pueden marcar la diferencia y contribuir a un mundo más limpio y saludable. Al reciclar, enseñamos a otros a cuidar del planeta y a ser conscientes de nuestras decisiones.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer id="footer">
         <div class="contenedor footer-content">
@@ -54,5 +121,6 @@
     </footer>
     <!-- Agregamos los archivos js-->
     <script src="js/menu.js"></script>
+    <script src="js/recoleccion.js"></script>
 </body>
 </html>
