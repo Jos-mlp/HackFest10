@@ -151,6 +151,13 @@ body{
 .output{
     text-align: center;
     padding: 24px 24px;
+    border: solid #16a085;
+    border-radius: 6px;
+    margin: 8px;
+}
+.output:hover{
+    background-color:#16a085 ;
+    color: #fff;
 }
 /*BENEFICIOS*/
 .c-beneficios{
@@ -258,6 +265,17 @@ footer{
 @media screen and (max-width: 800px){
     .titulo{
         font-size: 40px;
+    }
+    /*-------beneficios-----*/
+    .contenedor-beneficios img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .lista-beneficios{
+        width: 80%;
+    }
+    .beneficios{
+        margin-bottom: 30px;
     }
     /*----------FOOTER----------------*/
     .social-media-icon:hover{
