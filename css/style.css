@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+/*----------MAIN----------------*/
+.main{
+    height: 800px;
+}
+/*----------MAIN----------------*/
+/*----------FOOTER----------------*/
+footer{
+    background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.creditos{
+    width: 40%;
+    color: #fff;
+}
+.creditos-url{
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+.creditos-url p{
+    font-size: large;
+}
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+/*----------FOOTER----------------*/
+
+@media screen and (max-width: 800px){
+    /*----------FOOTER----------------*/
+    .social-media-icon:hover{
+        background: #fff;
+        color:#e73600d3;
+    }
+    .footer-content{
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .creditos{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    /*----------FOOTER----------------*/
+}
+
+@media screen and (max-width: 500px){
+/*----------FOOTER----------------*/
+.social-media{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.social-media-icon{
+    margin-left: 0;
+}
+
+.creditos{
+    text-align: center;
+    width: 95%;
+    margin-bottom: 40px;
+}
+/*----------FOOTER----------------*/
+}
