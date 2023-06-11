@@ -10,22 +10,22 @@ function getLocation() {
         garbageDay = "Martes";
         recyclingDay = "No existe ruta";
     } else if (selectedLocation === "zona2") {
-        garbageDay = "";
+        garbageDay = "Miercoles";
         recyclingDay = "No existe ruta";
     } else if (selectedLocation === "zona3") {
         garbageDay = "Martes, Jueves";
         recyclingDay = "No existe ruta";
     }else if (selectedLocation === "zona4") {
-        garbageDay = "";
+        garbageDay = "Martes";
         recyclingDay = "Lunes";
     }else if (selectedLocation === "zona5") {
         garbageDay = "Miercoles";
         recyclingDay = "Lunes";
     }else if (selectedLocation === "zona6") {
-        garbageDay = "";
+        garbageDay = "Jueves";
         recyclingDay = "No existe ruta";
     }else if (selectedLocation === "zona7") {
-        garbageDay = "";
+        garbageDay = "Jueves";
         recyclingDay = "Miercoles";
     }else if (selectedLocation === "zona8") {
         garbageDay = "Lunes";
