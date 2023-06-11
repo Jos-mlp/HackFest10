@@ -1,0 +1,132 @@
+:root {
+    --principal: #8cc5de;
+    --secundario: #cc7abb;
+    --dorado: #cfa25c;
+    --morado: #a196c6;
+    --morado-oscuro: #5e6379;
+    --oscuro: #060507;
+    --blanco: #fff;
+    --verde: #A0DC58;
+
+    --fuentePrincipal: 'Bebas Neue', cursive;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--morado);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/**HEADER**/
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin: 3rem 0;
+}
+
+#logo {
+    width: 180px;
+    /* Cambia el valor según el tamaño que desees */
+    height: auto;
+    /* Mantenemos la proporción de aspecto original */
+}
+
+#logo2 {
+    width: 110px;
+    /* Cambia el valor según el tamaño que desees */
+    height: auto;
+    /* Mantenemos la proporción de aspecto original */
+}
+
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--oscuro);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: var(--morado-oscuro);
+    font-family: var(--fuentePrincipal);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+/**NAVEGACION**/
+.navegacion {
+    background-color: var(--secundario);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    /**Separacion forma nueva**/
+}
+
+.navegacion__enlace {
+    font-family: var(--fuentePrincipal);
+    color: var(--principal);
+    font-size: 3rem;
+    margin-right: 3rem;
+}
+
+.navegacion__enlace:last-of-type {
+    margin-right: 0;
+}
+
+/**CUANDO SE LE PONE ARRIBA EL MOUSE CAMBIA COLOR**/
+.navegacion__enlace--activo,
+.navegacion__enlace:hover {
+    color: var(--verde);
+}
+
+.section {
+    background-color: #e9e9e9;
+    padding: 20px;
+}
+
+/**FOOTER**/
+.footer {
+    background-color: var(--secundario);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer__texto {
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    font-size: 2.2rem;
+    color: var(--principal);
+}
