@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Reciclar Game</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/estilo.css" />
+    </head>
+    <body>
+        <div id="arriba" class="esconder">
+            <div id="tablero_reciclaje"><p>0</p></div>
+            <div id="mejor_puntuacion"><p>0</p></div>
+            <div id="tablero_tiempo"><p>30</p></div>
+            
+        </div>
+        <div id="principal">
+
+            <div id="mensage_inicio" class="box">
+                
+                <div class="mensage_texto">
+                    <h1>JUEGO DE RECICLAJE</h1>
+                    <p>Debes de colocar la basura en el cesto de basura correcto, entre mas basura logres recolectar correctamente, mayor sera tu puntuacion. Tienes un limite de tiempo de 30 segundos para demostrar tus habilidades como heroe del reciclaje</p>
+                </div>
+                
+                <a href="javascript:void(0);" onclick="javascript:iniciarPreparacion();" class="btn btn_animado btn_verde btn_iniciar">Jugar</a>
+                
+            </div>
+            
+            
+            <div id="preparar" class="box esconder"></div>
+            
+            
+            <div id="mensage_fin" class="box esconder">
+                
+                <div class="mensage_texto">
+                    <h1>Fin del juego</h1>
+                    <p>Debes de colocar la basura en el cesto de basura correcto, entre mas basura logres recolectar correctamente, mayor sera tu puntuacion. Tienes un limite de tiempo de 30 segundos para demostrar tus habilidades como heroe del reciclaje</p>
+                </div>
+                
+                <a href="javascript:void(0);" onclick="javascript:iniciarPreparacion();" class="btn btn_animado btn_verde btn_iniciar">Jugar de nuevo</a>
+                
+            </div>
+            
+ 
+            
+            <div id="juego" class="esconder">
+                <div id="basureros">
+                    <div tipo_basura="papel" class="basurero basurero_papel"></div>
+                    <div tipo_basura="plastico" class="basurero basurero_plastico"></div>
+                    <div tipo_basura="vidro" class="basurero basurero_vidro"></div>
+                    <div tipo_basura="metal" class="basurero basurero_metal"></div>
+                    <div tipo_basura="organico" class="basurero basurero_organico"></div>
+                </div>
+
+                <div class="clear"></div>
+
+                <div id="basura"></div>
+            </div>
+            
+            <div id="pre_load" class="esconder">
+                <img src="assets/img/basureros.png">
+                <img src="assets/img/basura.png">
+                <img src="assets/img/mejor_punteo.png">
+                <img src="assets/img/punteo_reciclaje.png">
+                <img src="assets/img/tiempo.png">
+            </div>
+        </div>
+
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery-ui.min.js"></script>
+        <script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+        <script src="assets/js/reciclar.js"></script>
+
+        
+    </body>
+</html>
