@@ -1,6 +1,6 @@
-# Pagina de la HackFest 2022 - URL
+# Pagina del HackFest 10 - URL
 
-Este repositorio contiene la pagina que diseñamos sobre el objetivo numero 9 de la ONU para el 2030 el cual es: **Construir infraestructuras resilientes, promover la industrialización sostenible y fomentar la innovación**
+Este repositorio contiene la pagina que diseñamos sobre la lucha contra la contaminacion: **Reciclar salva al planeta Tierra**
 
 ## Contenido
 
