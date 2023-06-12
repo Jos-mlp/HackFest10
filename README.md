@@ -34,6 +34,14 @@ https://boxicons.com
 https://www.manypixels.co/gallery 
 ```
 
+## Autores
+```
+Marco Javier Vásquez de León - 1521719
+Josúe Manuel Maldonado Lepe - 1664220
+Jesús Marco Antonio Quemé Cárcamo - 1592920
+Fernando Enrique Quiñonez García - 1518619
+Carlos Rodolfo Santisteban Gramajo - 1559419
+```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
