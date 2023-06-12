@@ -23,7 +23,7 @@ body{
 .header{
     height: 100vh;
     /* 02 */
-    background-image: linear-gradient(to top,  rgba(54, 61, 53, 0.384) 0%, hsla(0, 9%, 13%, 0.758) 100%), url(../img/portada.jpg);
+    background-image: linear-gradient(to top,  rgba(39, 44, 38, 0.682) 0%, hsla(0, 9%, 13%, 0.791) 100%), url(../img/portada.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -213,6 +213,11 @@ body{
 }
 .texto-jugar{
     display: none;
+}
+/*--Recicladoras--*/
+.contenedor-recicladoras{
+    background: #f2f2f2;
+    padding-bottom: 40px;
 }
 /*----------MAIN----------------*/
 /*----------FOOTER----------------*/
