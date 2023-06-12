@@ -197,6 +197,13 @@ body{
     text-align: justify;
 
 }
+.contenedor-siete-r{
+    padding-top: 40px;
+}
+.button-siete-r{
+    padding: 32px 40px;
+    font-size: large;
+}
 /*BENEFICIOS*/
 .c-beneficios{
     background: #f2f2f2;
@@ -239,7 +246,7 @@ body{
 .contenedor-juego-reciclar{
     padding: 100px 100px;
 }
-.contenedor-button-jugar{
+.contenedor-button{
     display: flex;
     align-items: center;
     justify-content: center;
