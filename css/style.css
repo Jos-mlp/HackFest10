@@ -159,6 +159,44 @@ body{
     background-color:#16a085 ;
     color: #fff;
 }
+/* las 7R*/
+.contenedorR {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 2rem;
+}
+.contenedorR__reves {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: 2rem;
+}
+.contenedorR__imagen img{
+    max-width: 100%
+}
+
+.contenedorR:last-of-type {
+    border: none;
+}
+.contenedorR__info {
+    font-weight: normal;
+    text-align: justify;
+
+
+}
+.contenedorR__label,
+.contenedorR__info {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    margin-right: 30px;
+
+}
+.contenedorR__labelR,
+.contenedorR__infoR {
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+    text-align: justify;
+
+}
 /*BENEFICIOS*/
 .c-beneficios{
     background: #f2f2f2;
