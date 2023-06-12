@@ -3,49 +3,49 @@ function getLocation() {
     var selectedLocation = locationSelect.value;
   
     // Lógica para determinar los días de recolección según la ubicación y el día
-    var garbageDay;
-    var recyclingDay;
+    var diaBasura;
+    var diaOrganica;
 
     if (selectedLocation === "zona1") {
-        garbageDay = "Martes";
-        recyclingDay = "No existe ruta";
+        diaBasura = "Martes";
+        diaOrganica = "No existe ruta";
     } else if (selectedLocation === "zona2") {
-        garbageDay = "Miercoles";
-        recyclingDay = "No existe ruta";
+        diaBasura = "Miercoles";
+        diaOrganica = "No existe ruta";
     } else if (selectedLocation === "zona3") {
-        garbageDay = "Martes, Jueves";
-        recyclingDay = "No existe ruta";
+        diaBasura = "Martes, Jueves";
+        diaOrganica = "No existe ruta";
     }else if (selectedLocation === "zona4") {
-        garbageDay = "Martes";
-        recyclingDay = "Lunes";
+        diaBasura = "Martes";
+        diaOrganica = "Lunes";
     }else if (selectedLocation === "zona5") {
-        garbageDay = "Miercoles";
-        recyclingDay = "Lunes";
+        diaBasura = "Miercoles";
+        diaOrganica = "Lunes";
     }else if (selectedLocation === "zona6") {
-        garbageDay = "Jueves";
-        recyclingDay = "No existe ruta";
+        diaBasura = "Jueves";
+        diaOrganica = "No existe ruta";
     }else if (selectedLocation === "zona7") {
-        garbageDay = "Jueves";
-        recyclingDay = "Miercoles";
+        diaBasura = "Jueves";
+        diaOrganica = "Miercoles";
     }else if (selectedLocation === "zona8") {
-        garbageDay = "Lunes";
-        recyclingDay = "Martes";
+        diaBasura = "Lunes";
+        diaOrganica = "Martes";
     }else if (selectedLocation === "zona9") {
-        garbageDay = "Lunes";
-        recyclingDay = "Martes";
+        diaBasura = "Lunes";
+        diaOrganica = "Martes";
     }else if (selectedLocation === "zona10") {
-        garbageDay = "Lunes";
-        recyclingDay = "Jueves";
+        diaBasura = "Viernes";
+        diaOrganica = "Jueves";
     }else if (selectedLocation === "zona11") {
-        garbageDay = "Miercoles";
-        recyclingDay = "Viernes";
+        diaBasura = "Miercoles";
+        diaOrganica = "Viernes";
     }else if (selectedLocation === "zona12") {
-        garbageDay = "Miercoles";
-        recyclingDay = "No existe ruta";
+        diaBasura = "Miercoles";
+        diaOrganica = "No existe ruta";
     }
 
     var outputBasura = document.getElementById("outputBasura");
-    outputBasura.innerHTML = "<p>Día de recolección basura organica: " + "</p><br><p>" + recyclingDay +"</p>";
+    outputBasura.innerHTML = "<p>Día de recolección basura organica: " + "</p><br><p>" + diaOrganica +"</p>";
     var outputReciclaje = document.getElementById("outputReciclaje");
-    outputReciclaje.innerHTML = "Día de recolección basura inorganica: " + "</p><br><p>" + garbageDay +"</p>";
+    outputReciclaje.innerHTML = "Día de recolección basura inorganica: " + "</p><br><p>" + diaBasura +"</p>";
 }
