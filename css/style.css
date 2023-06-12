@@ -45,7 +45,7 @@ body{
 }
 
 .copy{
-    font-weight: 300;
+    font-weight: 500;
     font-size: 25px;
 }
 
@@ -197,6 +197,23 @@ body{
     color: #fff;
     font-weight: 700;
 }
+/*----------Juego Reciclaje-----*/
+.contenedor-juego-reciclar{
+    padding: 100px 100px;
+}
+.contenedor-button-jugar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+.button-jugar{
+    padding: 32px 40px;
+    font-size: large;
+}
+.texto-jugar{
+    display: none;
+}
 /*----------MAIN----------------*/
 /*----------FOOTER----------------*/
 footer{
@@ -277,6 +294,13 @@ footer{
     .beneficios{
         margin-bottom: 30px;
     }
+    /*-----JUEGO------*/
+    .texto-jugar{
+        display:block;
+    }
+    .button-jugar{
+        display: none;
+    }
     /*----------FOOTER----------------*/
     .social-media-icon:hover{
         background: #fff;
@@ -310,28 +334,28 @@ footer{
     .titulo{
         font-size: 30px;
     }
-/*----------FOOTER----------------*/
-.social-media{
-    width: 100%;
-    justify-content: space-evenly;
-}
+    /*----------FOOTER----------------*/
+    .social-media{
+        width: 100%;
+        justify-content: space-evenly;
+    }
 
-.social-media-icon{
-    margin-left: 0;
-}
+    .social-media-icon{
+        margin-left: 0;
+    }
 
-.creditos{
-    text-align: center;
-    width: 95%;
-    margin-bottom: 40px;
-}
-/*----------MENU----------------*/
-.menu-navegacion{
-    width: 65vw;
-}
+    .creditos{
+        text-align: center;
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    /*----------MENU----------------*/
+    .menu-navegacion{
+        width: 65vw;
+    }
 
-.menu{
-    top: 20px;
-    right: 20px;
-}
+    .menu{
+        top: 20px;
+        right: 20px;
+    }
 }
